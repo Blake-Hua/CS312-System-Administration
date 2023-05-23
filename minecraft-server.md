@@ -115,4 +115,8 @@ When the packages are done installing:
     * Sample output:
      <img width="600" height="400" alt="sample output" src="https://cdn.discordapp.com/attachments/736746137188565033/1110684380227174492/sample_output.png">
 
-  
+#### 11) Joining the server
+  * Grab the Public IPv4 Address, EC2 > Instances > highlight mc-server and copy
+  <img width="800" alt="ipv4 addres" src="https://cdn.discordapp.com/attachments/736746137188565033/1110686458085376080/ipv4_addres.png">
+
+   
