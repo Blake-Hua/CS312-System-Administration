@@ -61,7 +61,7 @@
 #### 7) Go to the SSH Client tab and open your terminal
   * type chmod 400 mc-key.pem (NOTE: In your terminal, make sure you are in the directory where you downloaded your key)
   * copy the command under "Example:"
-<img width="621" alt="ssh command" src="[https://github.com/Blake-Hua/CS312/assets/39657294/03818b05-5801-4210-81a0-372ac4f9f00b](https://cdn.discordapp.com/attachments/736746137188565033/1110657882900410478/ssh_command.png)">
+<img width="621" alt="ssh command" src="https://cdn.discordapp.com/attachments/736746137188565033/1110657882900410478/ssh_command.png">
 
   
 
