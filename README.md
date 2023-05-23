@@ -1,1 +1,1 @@
-# CS312
+# CS312 - Assignments
