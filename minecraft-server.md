@@ -90,6 +90,29 @@ When the packages are done installing:
        * Update eula=false to eula=true and save/close out of vim
           <img width="600" height="400" alt="eula" src="https://github.com/Blake-Hua/CS312/assets/39657294/4afea29d-542f-4d2f-b75a-2c213392f4c1">
 
-
+#### 10) Setting up auto-start and launching the Minecraft server (FINAL STEP)
+  * Navigate to system files ```cd /etc/systemd/system/``` 
+  * Create myapp.service ```sudo vim myapp.service``` and paste content into file (below)
     
+    ```
+    [Unit]
+    Description=Manage Java service
+
+    [Service]
+    WorkingDirectory=/home/ubuntu/minecraft
+    ExecStart=/bin/java -Xms1024M -Xmx1024M -jar /home/ubuntu/minecraft/minecraft_server_1.19.4.jar nogui
+    User=ubuntu
+    Type=simple
+    Restart=on-failure
+    RestartSec=20
+
+    [Install]
+    WantedBy=multi-user.target
+    ```
+  * Reload to make sure changes are saved ```sudo systemctl daemon-reload```
+  * Start service ```sudo systemctl start myapp.service```
+  * Check status ```systemctl status myapp```
+    * Sample output:
+    <img width="600" height="400" alt="sample output" src="https://cdn.discordapp.com/attachments/736746137188565033/1110684380227174492/sample_output.png">
+
   
