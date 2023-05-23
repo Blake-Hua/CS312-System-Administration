@@ -66,7 +66,7 @@
   ```ssh -i "mc-key.pem" ubuntu@ec2-34-221-244-198.us-west-2.compute.amazonaws.com```
 
 #### 7) Once you are in the server, we will type a list of commands to setup and download useful packages
-<img width="450" alt="in server terminal" src="https://cdn.discordapp.com/attachments/736746137188565033/1110669647453376542/in_server_terminal.png">
+<img width="550" alt="in server terminal" src="https://cdn.discordapp.com/attachments/736746137188565033/1110669647453376542/in_server_terminal.png">
 
 Run these commands in the following order:
   * ```sudo apt update``` 
@@ -90,7 +90,7 @@ When the packages are done installing:
     4. An error should appear notifying you to agree to the EULA
        * ```vi eula.txt```
        * Update eula=false to eula=true and save/close out of vim
-          <img width="450" alt="eula" src="https://cdn.discordapp.com/attachments/736746137188565033/1110677079898460281/eula.png">
+          <img width="550" alt="eula" src="https://cdn.discordapp.com/attachments/736746137188565033/1110677079898460281/eula.png">
 
 #### 9) Setting up auto-start and launching the Minecraft server
   * Navigate to system files ```cd /etc/systemd/system/``` 
@@ -115,7 +115,7 @@ When the packages are done installing:
   * Start service ```sudo systemctl start myapp.service```
   * Check status ```systemctl status myapp```
     * Sample output:
-     <img width="450" alt="sample output" src="https://cdn.discordapp.com/attachments/736746137188565033/1110684380227174492/sample_output.png">
+     <img width="550" alt="sample output" src="https://cdn.discordapp.com/attachments/736746137188565033/1110684380227174492/sample_output.png">
 
 #### 10) Joining the server (FINAL STEP)
   * Grab the Public IPv4 Address, EC2 > Instances > highlight mc-server and copy
