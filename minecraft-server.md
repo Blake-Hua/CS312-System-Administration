@@ -122,7 +122,7 @@ When the packages are done installing:
      <img width="700" alt="add server minecraft" src="https://cdn.discordapp.com/attachments/736746137188565033/1110687697867128852/add_server_minecraft.png">
   
   * The server is up and running!
-    <img width="700" alt="working server" src="https://cdn.discordapp.com/attachments/736746137188565033/1110688462450987139/working_server.png">
+   <img width="700" alt="working server" src="https://cdn.discordapp.com/attachments/736746137188565033/1110688462450987139/working_server.png">
 
 
    
