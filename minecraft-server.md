@@ -57,7 +57,7 @@
 #### 4) After creating the four rules click launch instance
 <img width="150" alt="launch" src="https://cdn.discordapp.com/attachments/736746137188565033/1110690787911532724/launch.png">
 
-#### 5) Highlight the instance and click Connect 
+#### 5) Go to the EC2 page > Instances running, highlight the instance and click Connect 
 <img width="800" alt="connect" src="https://cdn.discordapp.com/attachments/736746137188565033/1110691744992997496/connect.png">
 
 #### 6) Go to the SSH Client tab and open your terminal
