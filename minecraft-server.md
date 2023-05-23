@@ -73,6 +73,7 @@ Run these commands in the following order:
   * ```sudo apt install oracle-java17-installer``` 
     * A screen will pop up where you will need to press "Ok" and "Yes" by using the arrow keys and Enter
 
+#### 9) Creating the server files
 When the packages are done installing:
   * ```mkdir minecraft``` make a folder and cd into it ```cd minecraft```
   * Visit https://www.minecraft.net/en-us/download/server 
