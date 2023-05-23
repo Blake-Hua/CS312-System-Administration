@@ -66,7 +66,7 @@
   ```ssh -i "mc-key.pem" ubuntu@ec2-34-221-244-198.us-west-2.compute.amazonaws.com```
 
 #### 7) Once you are in the server, we will type a list of commands to setup and download useful packages
-<img width="714" alt="in server terminal" src="https://cdn.discordapp.com/attachments/736746137188565033/1110669647453376542/in_server_terminal.png">
+<img width="600" height="400" alt="in server terminal" src="https://cdn.discordapp.com/attachments/736746137188565033/1110669647453376542/in_server_terminal.png">
 
 Run these commands in the following order:
   * ```sudo apt update``` 
