@@ -78,7 +78,7 @@ Run these commands in the following order:
 #### 8) Creating the server files
 When the packages are done installing:
   * ```mkdir minecraft``` make a folder and cd into it ```cd minecraft```
-  * Visit https://www.minecraft.net/en-us/download/server 
+  * Visit [Minecraft Server](https://www.minecraft.net/en-us/download/server) 
     * Right click "minecraft_server..jar" and copy link address 
     ![copy link address](https://cdn.discordapp.com/attachments/736746137188565033/1110672539262390342/copy_link_address.png)
   * Go back to your terminal, type wget and paste the link address
