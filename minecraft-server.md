@@ -51,7 +51,7 @@
       * Source type: Custom
       * Source: 0.0.0.0/0
 
-<img width="600" alt="group rules" src="https://cdn.discordapp.com/attachments/736746137188565033/1110690345060143116/group_rules.png">
+<img width="700" alt="group rules" src="https://cdn.discordapp.com/attachments/736746137188565033/1110690345060143116/group_rules.png">
 
 
 #### 4) After creating the four rules click launch instance
