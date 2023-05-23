@@ -28,7 +28,6 @@
       * Port range: 22
       * Source type: Custom
       * Source: 0.0.0.0/0
-      * Description: SSH
     * Add security group rule
     * **Security group rule 2**
       * Type: Custom UDP
