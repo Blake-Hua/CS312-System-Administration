@@ -78,5 +78,16 @@ When the packages are done installing:
   * Visit https://www.minecraft.net/en-us/download/server 
     * Right click "minecraft_server..jar" and copy link address 
     ![copy link address](https://cdn.discordapp.com/attachments/736746137188565033/1110672539262390342/copy_link_address.png)
+  * Go back to your terminal, type wget and paste the link address
+  ```wget https://piston-data.mojang.com/v1/objects/8f3112a1049751cc472ec13e397eade5336ca7ae/server.jar```
+  * A file should appear named server.jar
+    1. ```chmod 777 server.jar``` give it permissions
+    2. ```mv server.jar minecraft_server_1.19.4.jar``` rename it so that we know what version the server is on (best practice)
+    3. ```java -Xmx1024M -Xms1024M -jar minecraft_server_1.19.4.jar nogui``` taken from https://www.minecraft.net/en-us/download/server
+    4. An error should appear notifying you to agree to the EULA
+      * ```vi eula.txt```
+      * Update eula=false to eula=true and save/close out of vim
+      <img width="708" alt="eula" src="https://cdn.discordapp.com/attachments/736746137188565033/1110677079898460281/eula.png">
 
+    
   
