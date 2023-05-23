@@ -87,7 +87,7 @@ When the packages are done installing:
     4. An error should appear notifying you to agree to the EULA
       * ```vi eula.txt```
       * Update eula=false to eula=true and save/close out of vim
-      ![eula](src=https://cdn.discordapp.com/attachments/736746137188565033/1110677079898460281/eula.png)
+      ![eula](https://cdn.discordapp.com/attachments/736746137188565033/1110677079898460281/eula.png)
 
     
   
