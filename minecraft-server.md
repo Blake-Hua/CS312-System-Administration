@@ -70,5 +70,5 @@ Run these commands in the following order:
   * ```sudo add-apt-repository ppa:linuxuprising/java```
   * ```sudo apt install oracle-java17-installer``` 
     * A screen will pop up where you will need to press "Ok" and "Yes" by using the arrow keys and Enter
-<img width="714" alt="in server terminal" src="https://cdn.discordapp.com/attachments/736746137188565033/1110669647453376542/in_server_terminal.png">
+    <img width="714" alt="in server terminal" src="https://cdn.discordapp.com/attachments/736746137188565033/1110669647453376542/in_server_terminal.png">
   
