@@ -113,6 +113,6 @@ When the packages are done installing:
   * Start service ```sudo systemctl start myapp.service```
   * Check status ```systemctl status myapp```
     * Sample output:
-      <img width="600" height="400" alt="sample output" src="https://cdn.discordapp.com/attachments/736746137188565033/1110684380227174492/sample_output.png">
+     <img width="600" height="400" alt="sample output" src="https://cdn.discordapp.com/attachments/736746137188565033/1110684380227174492/sample_output.png">
 
   
