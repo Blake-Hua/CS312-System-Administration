@@ -23,7 +23,7 @@
   * Description: launch-wizard-X created 2023-05-23T18:47:56.387Z
   * Inbound security groups rules:
     * **Security group rule 1**
-      * Type: ssh
+      * Type: SSH
       * Protocol: TCP
       * Port range: 22
       * Source type: Custom
@@ -59,10 +59,16 @@
 #### 6) Highlight the instance and click Connect 
 
 #### 7) Go to the SSH Client tab and open your terminal
-  * type chmod 400 mc-key.pem (NOTE: In your terminal, make sure you are in the directory where you downloaded your key)
-  * copy the command under "Example:"
-<img width="621" alt="ssh command" src="https://cdn.discordapp.com/attachments/736746137188565033/1110657882900410478/ssh_command.png">
+  * Type ```chmod 400 mc-key.pem``` (NOTE: In your terminal, make sure you are in the directory where you downloaded your key)
+  * Copy the command under "Example:" and paste it into your terminal (NOTE: Mine will look different from yours)
+  ```ssh -i "mc-key.pem" ubuntu@ec2-34-221-244-198.us-west-2.compute.amazonaws.com```
 
+#### 8) Once you are in the server, we can type a list of commands to setup and download useful packages
+Run these commands in the following order:
+  * ```sudo apt update``` 
+  * ```sudo apt upgrade```
+  * ```sudo add-apt-repository ppa:linuxuprising/java```
+  * ```sudo apt install oracle-java17-installer``` 
+    * A screen will pop up where you will need to press "Ok" and "Yes" by using the arrow keys and Enter
+<img width="714" alt="in server terminal" src="https://cdn.discordapp.com/attachments/736746137188565033/1110669647453376542/in_server_terminal.png">
   
-
-#### 8) 
