@@ -87,7 +87,7 @@ When the packages are done installing:
     4. An error should appear notifying you to agree to the EULA
       * ```vi eula.txt```
       * Update eula=false to eula=true and save/close out of vim
-      <img width="400" height="300" alt="eula" src="https://github.com/Blake-Hua/CS312/assets/39657294/4afea29d-542f-4d2f-b75a-2c213392f4c1">
+      <img width="600" height="400" alt="eula" src="https://github.com/Blake-Hua/CS312/assets/39657294/4afea29d-542f-4d2f-b75a-2c213392f4c1">
 
 
     
