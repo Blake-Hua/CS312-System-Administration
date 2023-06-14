@@ -1,10 +1,3 @@
----
-tags: [CS 312 System Administration]
-title: How to Setup a Minecraft Server with Terraform and Bash Script
-created: '2023-06-13T07:32:43.085Z'
-modified: '2023-06-14T07:11:50.349Z'
----
-
 # How to Setup a Minecraft Server with Terraform and Bash Script
 
 **Welcome! This tutorial will demonstrate how to create a Minecraft server with AWS EC2. The twist is that we will utilize Infrastructure as Code (IaC), eliminating the need to interact with the AWS Management page. We will achieve this with the assistance of Terraform and Bash Script.**
