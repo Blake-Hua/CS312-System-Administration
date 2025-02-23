@@ -1,1 +1,1 @@
-# CS312 System Administration - Assignments
+# CS312 System Administration - Projects
