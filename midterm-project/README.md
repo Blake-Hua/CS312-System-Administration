@@ -51,14 +51,9 @@
       * Source type: Custom
       * Source: 0.0.0.0/0
 
-<img width="519" height="600" alt="group rules" src="https://cdn.discordapp.com/attachments/736746137188565033/1110690345060143116/group_rules.png">
-
-
 #### 4) After creating the four rules click launch instance
-<img width="150" alt="launch" src="https://cdn.discordapp.com/attachments/736746137188565033/1110690787911532724/launch.png">
 
 #### 5) Go to the EC2 page > Instances running, highlight the instance and click Connect 
-<img width="800" alt="connect" src="https://cdn.discordapp.com/attachments/736746137188565033/1110691744992997496/connect.png">
 
 #### 6) Go to the SSH Client tab and open your terminal
   * Type ```chmod 400 mc-key.pem``` (NOTE: In your terminal, make sure you are in the directory where you downloaded your key)
@@ -66,7 +61,6 @@
   ```ssh -i "mc-key.pem" ubuntu@ec2-34-221-244-198.us-west-2.compute.amazonaws.com```
 
 #### 7) Once you are in the server, we will type a list of commands to setup and download useful packages
-<img width="550" alt="in server terminal" src="https://cdn.discordapp.com/attachments/736746137188565033/1110669647453376542/in_server_terminal.png">
 
 Run these commands in the following order:
   * ```sudo apt update``` 
@@ -80,7 +74,6 @@ When the packages are done installing:
   * ```mkdir minecraft``` make a folder and cd into it ```cd minecraft```
   * Visit [Minecraft Server](https://www.minecraft.net/en-us/download/server) 
     * Right click "minecraft_server..jar" and copy link address 
-    ![copy link address](https://cdn.discordapp.com/attachments/736746137188565033/1110672539262390342/copy_link_address.png)
   * Go back to your terminal, type wget and paste the link address
   ```wget https://piston-data.mojang.com/v1/objects/8f3112a1049751cc472ec13e397eade5336ca7ae/server.jar```
   * A file should appear named server.jar
@@ -90,7 +83,6 @@ When the packages are done installing:
     4. An error should appear notifying you to agree to the EULA
        * ```vi eula.txt```
        * Update eula=false to eula=true and save/close out of vim
-          <img width="550" alt="eula" src="https://cdn.discordapp.com/attachments/736746137188565033/1110677079898460281/eula.png">
 
 #### 9) Setting up auto-start and launching the Minecraft server
   * Navigate to system files ```cd /etc/systemd/system/``` 
@@ -114,16 +106,11 @@ When the packages are done installing:
   * Reload to make sure changes are saved ```sudo systemctl daemon-reload```
   * Start service ```sudo systemctl start myapp.service```
   * Check status ```systemctl status myapp```
-    * Sample output:
-     <img width="550" alt="sample output" src="https://cdn.discordapp.com/attachments/736746137188565033/1110684380227174492/sample_output.png">
 
 #### 10) Joining the server (FINAL STEP)
   * Grab the Public IPv4 Address, EC2 > Instances > highlight mc-server and copy
-     <img width="800" alt="ipv4 addres" src="https://cdn.discordapp.com/attachments/736746137188565033/1110686458085376080/ipv4_addres.png">
   * Open Minecraft and click Add Server, paste the Public IPv4 Address
-     <img width= "800" alt="add server minecraft" src="https://cdn.discordapp.com/attachments/736746137188565033/1110687697867128852/add_server_minecraft.png">
   * Congratulations you have successfully created a Minecraft Server!!
-     <img width="800" alt="working server" src="https://cdn.discordapp.com/attachments/736746137188565033/1110688462450987139/working_server.png">
 
 
    
